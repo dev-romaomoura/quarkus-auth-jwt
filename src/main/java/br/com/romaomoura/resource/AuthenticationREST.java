@@ -14,7 +14,7 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
-@Path("/user")
+@Path("/auth")
 public class AuthenticationREST {
 
     @Inject
